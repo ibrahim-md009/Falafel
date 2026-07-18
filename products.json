@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "طبق فول بالزيت الحار",
+    "price": 25,
+    "image": "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=500&auto=format&fit=crop&q=60",
+    "category": "فطور"
+  },
+  {
+    "id": 2,
+    "name": "قرص فلافل محشية بالخلطة",
+    "price": 8,
+    "image": "https://images.unsplash.com/photo-1547058886-af77992d8a6f?w=500&auto=format&fit=crop&q=60",
+    "category": "فطور"
+  },
+  {
+    "id": 3,
+    "name": "سندوتش فول إسكندراني متلغم",
+    "price": 15,
+    "image": "https://images.unsplash.com/photo-1541518763669-27fef04b14ea?w=500&auto=format&fit=crop&q=60",
+    "category": "فطور"
+  },
+  {
+    "id": 4,
+    "name": "سندوتش طعمية كرسبي بالسلطات",
+    "price": 15,
+    "image": "https://images.unsplash.com/photo-1547058886-af77992d8a6f?w=500&auto=format&fit=crop&q=60",
+    "category": "فطور"
+  },
+  {
+    "id": 5,
+    "name": "علبة كشري مصري بالدقة والصلصة",
+    "price": 45,
+    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500&auto=format&fit=crop&q=60",
+    "category": "غداء"
+  },
+  {
+    "id": 6,
+    "name": "طاجن مكرونة بالفراخ في الفرن",
+    "price": 60,
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&auto=format&fit=crop&q=60",
+    "category": "غداء"
+  },
+  {
+    "id": 7,
+    "name": "حواوشي بلدي مقرمش سبايسي",
+    "price": 40,
+    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=500&auto=format&fit=crop&q=60",
+    "category": "غداء"
+  },
+  {
+    "id": 8,
+    "name": "خمس صوابع كفتة مشوية على الفحم",
+    "price": 90,
+    "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=500&auto=format&fit=crop&q=60",
+    "category": "غداء"
+  },
+  {
+    "id": 9,
+    "name": "كوباية شاي خمسينة بالنعناع البلدي",
+    "price": 10,
+    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=500&auto=format&fit=crop&q=60",
+    "category": "مشروبات"
+  },
+  {
+    "id": 10,
+    "name": "فنجان قهوة تركي مظبوط",
+    "price": 20,
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500&auto=format&fit=crop&q=60",
+    "category": "مشروبات"
+  },
+  {
+    "id": 11,
+    "name": "كوب عصير قصب مشبر ثلج",
+    "price": 12,
+    "image": "https://images.unsplash.com/photo-1536882240095-0379873feb4e?w=500&auto=format&fit=crop&q=60",
+    "category": "مشروبات"
+  },
+  {
+    "id": 12,
+    "name": "كوباية حمص الشام (حلبسة) شطة ولمون",
+    "price": 25,
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&auto=format&fit=crop&q=60",
+    "category": "مشروبات"
+  },
+  {
+    "id": 13,
+    "name": "طبق بطاطس محمرة متبلة",
+    "price": 20,
+    "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500&auto=format&fit=crop&q=60",
+    "category": "مقبلات"
+  },
+  {
+    "id": 14,
+    "name": "طاسة باذنجان مخلل بالثوم والخل",
+    "price": 10,
+    "image": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?w=500&auto=format&fit=crop&q=60",
+    "category": "مقبلات"
+  },
+  {
+    "id": 15,
+    "name": "قنبلة الحاوي (بسبوسة وقشطة وفاكهة)",
+    "price": 50,
+    "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?w=500&auto=format&fit=crop&q=60",
+    "category": "حلويات"
+  }
+]
