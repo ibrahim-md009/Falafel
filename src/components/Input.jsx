@@ -9,7 +9,7 @@ const Input = ({
   placeholder,
 }) => {
   return (
-    <div className={`flex w-100 flex-col gap-2 md:w-150`}>
+    <div className={`flex w-70 flex-col gap-2 md:w-150`}>
       {label && (
         <label htmlFor={id} className="text-[#78350F]">
           {label}

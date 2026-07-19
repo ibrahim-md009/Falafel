@@ -10,10 +10,10 @@ const Cart = () => {
   if (count === 0) {
     return (
       <div className="flex flex-col items-center gap-20">
-        <p className="text-5xl">السلة فاضية!</p>
+        <p className="text-4xl md:text-5xl">السلة فاضية!</p>
         <Link
           to="/products"
-          className="rounded-[19px] bg-[#78350F] px-20 py-4 text-center text-2xl text-white shadow-2xl shadow-gray-400 duration-300 hover:scale-103 md:px-30 md:text-4xl"
+          className="rounded-[19px] bg-[#78350F] px-15 py-4 text-center text-2xl text-white shadow-2xl shadow-gray-400 duration-300 hover:scale-103 md:px-30 md:text-4xl"
         >
           خدلك بصة عالمنتجات
         </Link>
@@ -22,7 +22,7 @@ const Cart = () => {
     );
   }
   return (
-    <div className="flex flex-col items-center gap-10 p-5 md:grid md:grid-cols-3 md:items-start">
+    <div className="flex flex-col items-center gap-10 p-5 lg:grid lg:grid-cols-3 lg:items-start">
       <div className="mb-10 w-[85vw] md:col-span-2 md:w-full">
         <CartProducts />
       </div>

@@ -2,7 +2,7 @@ import { useCart } from "../../context/cart/useCart";
 import { useAuth } from "../../context/auth/useAuth";
 import { Link } from "react-router-dom";
 
-function Navbar({ setIsPhone }) {
+function Navbar({ setIsMenuOpen }) {
   const { userLogin, logout } = useAuth();
   const { resetCart } = useCart();
 
@@ -43,14 +43,14 @@ function Navbar({ setIsPhone }) {
         <Link
           to="/"
           className="text-center text-2xl"
-          onClick={() => setIsPhone(false)}
+          onClick={() => setIsMenuOpen(false)}
         >
           الرئيسية
         </Link>
         <Link
           to="/products"
           className="text-center text-2xl"
-          onClick={() => setIsPhone(false)}
+          onClick={() => setIsMenuOpen(false)}
         >
           المنتجات
         </Link>
@@ -59,7 +59,7 @@ function Navbar({ setIsPhone }) {
             to="/"
             className="rounded-2xl bg-red-500 p-2 text-center text-2xl hover:bg-red-600"
             onClick={() => {
-              setIsPhone(false);
+              setIsMenuOpen(false);
               logout();
               resetCart();
             }}
@@ -70,7 +70,7 @@ function Navbar({ setIsPhone }) {
           <Link
             to="/auth"
             className="rounded-2xl bg-green-500 p-2 text-center text-xl hover:bg-green-600"
-            onClick={() => setIsPhone(false)}
+            onClick={() => setIsMenuOpen(false)}
           >
             تسجيل الدخول
           </Link>
