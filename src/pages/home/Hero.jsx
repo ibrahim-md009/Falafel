@@ -10,10 +10,10 @@ const Hero = () => {
 
       <div className="flex flex-col items-center gap-5 md:w-[40%]">
         <h1 className="bg-brand p-2 text-2xl font-bold text-white md:text-4xl">
-          فلافل احمد محسن
+          فــــــــــــــلافل
         </h1>
         <p className="text-brand text-center text-[20px] md:text-2xl">
-          اشهر محل فلافل في العالم لدينا جميع انواع الفلافل التي يلغ عددها حتى
+          اشهر محل فلافل في العالم لدينا جميع انواع الفلافل التي يبلغ عددها حتى
           يومنا هذا سبوحتشر الف نوع ,, مقلية ومشوية ومغلية وأسعارنا ممتازة جدا
           جدا
         </p>

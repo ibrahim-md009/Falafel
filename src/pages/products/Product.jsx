@@ -4,14 +4,14 @@ import { toast } from "sonner";
 import { useNavigate } from "react-router-dom";
 
 const cardsClass =
-  "  flex w-80 md:w-80 flex-col rounded-2xl justify-center gap-2 bg-white overflow-hidden p-2 text-center text-white transition-all duration-300 hover:scale-103 shadow-2xl shadow-gray";
+  "  flex w-80 md:w-80 flex-col rounded-2xl justify-between gap-2 bg-white overflow-hidden p-2 text-center text-white transition-all duration-300 hover:scale-103 shadow-2xl shadow-gray";
 
 const Product = ({ product }) => {
   const { addToCart } = useCart();
   const navigate = useNavigate();
 
   return (
-    <div className={cardsClass}>
+    <div className={`items-stretch ${cardsClass}`}>
       <div className="img h-48 w-full overflow-hidden rounded-xl bg-gray-100">
         <img
           src={product.image}
