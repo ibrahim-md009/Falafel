@@ -1,5 +1,7 @@
 import { useEffect, useReducer, createContext, useRef } from "react";
 import axios from "axios";
+// import { db } from "../../firebase";
+// import { collection, getDocs } from "firebase/firestore";
 
 const DataContext = createContext();
 

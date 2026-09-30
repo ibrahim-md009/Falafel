@@ -1,5 +1,4 @@
-// import { Link } from "react-router-dom";
-import heroIMg from "../../assets/Gemini_Generated_Image_nxlfcjnxlfcjnxlf.png";
+import heroIMg from "../../assets/Gemini_Generated_Image_nxlfcjnxlfcjnxlf-removebg-preview.png";
 
 const Hero = () => {
   return (
@@ -13,17 +12,9 @@ const Hero = () => {
           فــــــــــــــلافل
         </h1>
         <p className="text-brand text-center text-[20px] md:text-2xl">
-          اشهر محل فلافل في العالم لدينا جميع انواع الفلافل التي يبلغ عددها حتى
-          يومنا هذا سبوحتشر الف نوع ,, مقلية ومشوية ومغلية وأسعارنا ممتازة جدا
-          جدا
+          نقدم لكم ألذ وأشهى الفلافل الطازجة المقرمشة
         </p>
       </div>
-      {/* <Link
-        to="/products"
-        className="rounded-2xl bg-green-500 px-10 py-2 text-white"
-      >
-        ابدأ التسوق
-      </Link> */}
     </div>
   );
 };
