@@ -1,13 +1,13 @@
-import heroIMg from "../../assets/Gemini_Generated_Image_nxlfcjnxlfcjnxlf-removebg-preview.png";
+// import heroIMg from "../../assets/Gemini_Generated_Image_nxlfcjnxlfcjnxlf-removebg-preview.png";
 
 const Hero = () => {
   return (
-    <div className="mx-4 flex flex-col items-center justify-between gap-4 rounded-lg md:mx-8 md:flex-row">
-      <div className="content-img">
+    <div className="mx-4 mt-20 flex flex-col items-center justify-center gap-4 rounded-lg md:mx-8 md:flex-row">
+      {/* <div className="content-img">
         <img src={heroIMg} alt="hero img" className="h-100" />
-      </div>
+      </div> */}
 
-      <div className="flex flex-col items-center gap-5 md:w-[40%]">
+      <div className="flex flex-col items-center gap-5">
         <h1 className="bg-brand p-2 text-2xl font-bold text-white md:text-4xl">
           فــــــــــــــلافل
         </h1>
